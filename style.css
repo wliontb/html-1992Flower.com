@@ -1,0 +1,241 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	background-image: url(https://1992flower.com/wp-content/uploads/2018/07/chamomile-3467059_1920.jpg);
+    background-position: center top;
+    /*background-size: contain;*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+li {
+	list-style: none;
+}
+
+.livuong::before {
+	content: "\25AA"; color: red;
+}
+
+.litron::before {
+	content: "\2022"; color: red;
+}
+
+a {
+	color: #4f82ac;
+	text-decoration: none;
+}
+
+a:hover {
+	font-style: italic;
+}
+
+.fll {
+	float: left;
+}
+
+.flr {
+	float: right;
+}
+
+.clear {
+	overflow: hidden;
+}
+
+.clear::after {
+	content: ".";
+	visibility: hidden;
+	clear: both;
+}
+
+.mw100 {
+	max-width: 100%;
+}
+
+.w33 {
+	width: 33%;
+}
+
+.w50 {
+	width: 50%;
+}
+
+.w25 {
+	width: 25%;
+}
+
+.w20 {
+	width: 20%;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1140px;
+}
+
+.xanh {
+	color: #74b73c !important;
+}
+
+/*header*/
+
+header {
+	background: #fff;
+}
+
+.headertren {
+	background: #007900;
+	color: #fff;
+	padding: 3px 15px;
+    margin-top: 25px;
+}
+
+.logo {
+	width: 20%;
+	padding: 5px;
+}
+
+.menuheader {
+	width: 41%;
+}
+
+.menuheader  li {
+	padding: 20px 10px;
+}
+
+.menuheader  li a {
+	color: rgba(0,0,0,.5);
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+/*main*/
+main {
+	margin-top: 25px !important;
+	background: #fff;
+	border-bottom: 1px dashed #ccc;
+}
+
+.cdhoa1 {
+	box-sizing: border-box;
+	height: 200px;
+	background: url(https://1992flower.com/wp-content/uploads/2018/06/z1015397780997_92a837d888fec51de552ec3a9e2cc985-1.jpg);
+	background-size: cover;
+    background-position: center center;
+    border: 2px solid #fff;
+    position: relative;
+}
+
+.cdhoa2 {
+	box-sizing: border-box;
+	height: 200px;
+	background: url(https://1992flower.com/wp-content/uploads/2018/06/Hoa-c%C6%B0%E1%BB%9Bi-min.jpg);
+	background-size: cover;
+    background-position: center center;
+    border: 2px solid #fff;
+    position: relative;
+}
+
+.cdhoa3 {
+	box-sizing: border-box;
+	height: 200px;
+	background: url(https://1992flower.com/wp-content/uploads/2018/06/PRODUCT_FLOWERS_Lilac_Haze_Birthday_Gift_image1.jpg);
+	background-size: cover;
+    background-position: center center;
+    border: 2px solid #fff;
+    position: relative;
+}
+
+.cdhoa4 {
+	box-sizing: border-box;
+	height: 200px;
+	background: url(https://1992flower.com/wp-content/uploads/2018/06/Hoa-chia-bu%E1%BB%93n-min.jpg);
+	background-size: cover;
+    background-position: center center;
+    border: 2px solid #fff;
+    position: relative;
+}
+
+.spt {
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	color: green;
+    font-weight: bold;
+    font-size: 1.5em;
+    display: inline-block;
+    padding: 5px 20px 0;
+    background-color: rgba(255,255,255,.75);
+}
+
+.anhtron {
+    padding: 50px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.tthoa {
+	margin-top: -50px;
+	font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.gioithieu {
+	border-radius: 10px;
+    width: 92%;
+    padding: 30px;
+    background: #e9ecef;
+    margin: 0 auto;
+}
+
+.gioithieu p {
+	padding: 10px;
+}
+
+.spnb {
+	margin: 20px 25px 0;
+    border-top: 1px dashed #ccc;
+}
+
+.dssp {
+	padding: 0 40px;
+}
+
+.dssp img {
+	width: 100%;
+}
+
+.sanpham {
+	border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin: 0px 15px;
+}
+
+.tensp,.gia {
+	font-size: 1.2rem;
+	padding: 10px;
+	text-align: center;
+}
+
+button {
+	border-radius: 6px;
+    color: #fff;
+    margin-bottom: 1rem;
+    border: none;
+    background-color: green;
+    padding: 3px 15px 2px;
+    line-height: 1.5;
+    margin-left: 25%;
+    white-space: normal;
+}
+/*footer*/
+footer {
+	margin-top: 10px;
+	background: #fff;
+	color: #6c757d !important;
+}
